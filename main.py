@@ -28,7 +28,11 @@ def menu():
     input_chosen = input("Please choose an option: ")
 
     if int(input_chosen) == 1:
-        rc = subprocess.call("./Enumerator.sh")
+        print('What is the IP of the target machine?')
+        
+        InputforIP = input()
+
+        rc = subprocess.call("./Enumerator.sh && InputforIP")
 
     elif int(input_chosen) == 2:
         print('yessuh')
