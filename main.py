@@ -10,7 +10,7 @@ logo = """\033[33m
 |  | |  |   `'  '-'  ' |  '--'  |  |  `---.        |  | |  |('  '-'(_.-'   |  |      `'  '-'  '
 `--' `--'     `-----'   `------'   `------'        `--' `--'  `-----'      `--'        `-----' 
                                          ▀                                                                            ▀                             
-                                    \033[34m[✔] https://github.com/TheCyberDrive   [✔]
+                                    \033[34m[✔] https://github.com/TheCyberDiver   [✔]
                                     \033[34m[✔]            Version 1.1.0               [✔]
                                     \033[91m[X] Please Don't Use For illegal Activity  [X]
 \033[97m """
