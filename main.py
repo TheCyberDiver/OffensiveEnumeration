@@ -28,7 +28,7 @@ def menu():
     input_chosen = input("Please choose an option: ")
 
     if int(input_chosen) == 1:
-        rc = subprocess.call("Enumerator.sh")
+        rc = subprocess.call("./Enumerator.sh")
 
     elif int(input_chosen) == 2:
         print('yessuh')
