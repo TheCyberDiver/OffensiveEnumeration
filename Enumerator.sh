@@ -16,6 +16,8 @@ do
         if [[ $line == *open* ]] && [[ $line == *http* ]]
         then
                 echo "Running Gobuster..."
+                
+                // Change the directory to make the wordlist
                 gobuster dir -u $1 -w /usr/share/wordlists/dirb/common.txt -qz > temp1
 
         echo "Running WhatWeb..."
