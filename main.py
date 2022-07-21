@@ -22,10 +22,13 @@ print (logo)
 def menu():
 
     print("[1] Run Auto Tool")
-    print("[2] Print the current Tree")
-    print("[3] Print the current Linked List")
+    print("[2] Print the Load")
+    print("[3] Print the Load")
 
     input_chosen = input("Please choose an option: ")
+    
+    # The first option will run a subprocess of the shell script with the input you provide as the IP.
+    # The shell script for auto enumeration is still under progress and best used for CTF at this time.
 
     if int(input_chosen) == 1:
         
@@ -34,10 +37,12 @@ def menu():
         rc = subprocess.call(["./Enumerator.sh", input_ip_chosen])
 
     elif int(input_chosen) == 2:
-        print('yessuh')
+      
+        print('Currently Under Construction')
 
     elif int(input_chosen) == 3:
-        print('yessuh')
+      
+        print('Currently Under Construction')
 
 
     else:
